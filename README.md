@@ -12,7 +12,11 @@ python fqview.py <fastqFilename>
 
 # Optional Arguments
 -n <number of records to display>
+
 --no-seq-color  : turns off nucleotide coloring
+
 --legend        : shows a legend at the top for quality scores
+
 --raw-quality   : show quality characters underneath normal colored quality display
+
 --wrap <max line length>
