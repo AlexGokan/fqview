@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
-fqview - A colorful FASTQ file viewer for the terminal
-
-Displays FASTQ records with:
-- Color-coded header fields (colon-separated parts)
-- Sequence with optional coloring
-- Quality scores as colored blocks
-"""
 
 import argparse
 import sys
@@ -123,7 +115,7 @@ def format_quality(qual: str) -> str:
     """Format quality scores as colored blocks."""
     result = []
     for char in qual:
-        # Convert ASCII to Phred score (Phred+33 encoding, most common)
+        # Convert ASCII to Phred score (Phred+33 encoding)
         phred = ord(char) - 33
         color = get_quality_color(phred)
         # Use a solid block character with foreground color
