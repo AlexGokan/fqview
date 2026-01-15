@@ -11,7 +11,7 @@ See the table at https://en.wikipedia.org/wiki/FASTQ_format#Encoding for more de
 python fqview.py <fastqFilename>
 
 # Optional Arguments
--n <number of records to display>
+-n \<number of records to display\>
 
 --no-seq-color  : turns off nucleotide coloring
 
@@ -19,4 +19,4 @@ python fqview.py <fastqFilename>
 
 --raw-quality   : show quality characters underneath normal colored quality display
 
---wrap <max line length>
+--wrap \<max line length\>
