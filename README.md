@@ -8,7 +8,7 @@ The quality visualization maps a Phred quality score (0-41+ | ascii "!" to "I") 
 See the table at https://en.wikipedia.org/wiki/FASTQ_format#Encoding for more detail
 
 # Instructions
-python fqview.py <fastqFilename>
+python fqview.py \<path_to_fastq_file\>
 
 # Optional Arguments
 -n \<number of records to display\>
